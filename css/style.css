@@ -56,6 +56,10 @@ nav a:hover, nav a:focus {
     color: #FFCB05;
 }
 
+.footer a {
+    color: #00274C;
+}
+
 body {
     background:#FFCB05;
     margin: 1%;
@@ -118,7 +122,7 @@ img {
 }
 
 header img {
-    height: 20%;
+    min-height: 75px;
     width: 40%;
     display: block;
     margin: auto;
