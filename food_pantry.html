@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Food Pantry</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        <div class = "skip"><a href = "#main">Skip to Main Content</a></div>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -17,13 +20,17 @@
                 <li><a href = "tutoring.html">UMSI Tutoring</a></li>
             </ul>
         </nav>
-        <h1>Maize & Blue Cupboard</h1>
 
     </header>
-    <main>
+    <main class = "container" id = "main">
+
+        <h1>Maize & Blue Cupboard</h1>
+
         <div>
             <p>The University of Michigan University Maize & Blue Cupboard is an on-campus food pantry dedicated to ensuring that everybody in the UMich community has equitable access to healthy and nutritious food.</p>
             <p>Shopping at Maize & Blue Cupboard is by appointment only. See the link below to make an appointment.</p>
+        </div>
+        <div>
             <p>Here is an overview of what they offer:</p>
             <ul>
                 <li>Food</li>
@@ -31,12 +38,14 @@
                 <li>Personal and Household Products</li>
                 <li>Support</li>
             </ul>
+        </div>
+        <div>
             <img src="images/pantry.jpg" width = "500" alt="A picture of the Maize & Blue Cupboard, where a worker is restocking produce.">
         </div>
 
-            <h2>Maize & Blue Cupboard Location, Hours, and Contact Information</h2>
+        <h2>Maize & Blue Cupboard Location, Hours, and Contact Information</h2>
     
-        <div>
+        <div class = "list">
             <p>Location</p>
             <ul>
                 <li>Address: 420 S State St Ann Arbor, MI 48109</li>
@@ -54,11 +63,16 @@
             <ul>
                 <li>Phone: 734-936-2794</li>
             </ul>
+        </div>
+        <div>
             <img src="images/Betsy_Barbour.jpg" width = "500" alt="A picture of the exterior of Betsy Barbour Residence Hall.">
         </div>
     </main>
-    <footer>
-        <p><a href = "https://mbc.studentlife.umich.edu/">Maize and Blue Cupboard Website</a> | <a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2025-01">Make an appointment </a></p>
+    <footer class = "footer">
+        <div class = "container">
+            <p><a href = "https://www.si.umich.edu/">UMSI Website</a></p>
+            <p><a href = "https://www.si.umich.edu/about-umsi/contact-us">UMSI Contact Page</a></p>
+        </div>
     </footer>
     
 </body>
