@@ -26,6 +26,7 @@ nav li {
 
 nav a:hover, nav a:focus {
     text-decoration: underline;
+    border: 2px solid #FFFFFF
 }
 
 .skip a:focus {
@@ -126,4 +127,8 @@ header img {
     width: 40%;
     display: block;
     margin: auto;
+}
+
+.active {
+    text-decoration: underline;
 }
